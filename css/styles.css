@@ -55,7 +55,58 @@ header .container {
     align-items: center;
 }
 
+section.hero {
+    position: relative;
+}
+
 section.hero img {
     width: 100%;
     height: auto;
+}
+
+section.hero .hero-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section.hero .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+section.hero h1,
+section.hero p {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 20px;
+    max-width: 495px;
+}
+
+section.hero h1 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 56px;
+}
+
+section.hero p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+section.hero button {
+    width: 200px;
+    height: 50px;
+    background-color: #33c6dd;
+    border: 1px solid #33c6dd;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
 }
