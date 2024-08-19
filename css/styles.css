@@ -284,3 +284,41 @@ section.newsletter button[type=submit] {
     border-radius: 0 25px 25px 0;
     text-transform: uppercase;
 }
+
+footer {
+    background-color: #3E3E3E;
+    color: white;
+    padding: 60px 0;
+}
+
+footer .container {
+    display: flex;
+    width: 950px;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+}
+
+footer ul li.list-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+footer ul li{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+footer ul li:last-of-type{
+    margin-bottom: 0;
+}
