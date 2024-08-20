@@ -295,7 +295,6 @@ section.newsletter input[type=email]::placeholder {
 
 section.newsletter button[type=submit] {
     padding: 0 36px;
-    margin-bottom: 10px;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
